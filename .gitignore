@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+server.log
+
+# Large archive
+claude.ai (1).zip
+
+# Web archive cache (not needed for local server)
+a-api.anthropic.com/
+a-cdn.anthropic.com/
+a.claude.ai/
+ad.doubleclick.net/
+api.anthropic.com/
+browser-intake-us5-datadoghq.com/
+fcmregistrations.googleapis.com/
+s-cdn.anthropic.com/
+www.google.com/
+www.googletagmanager.com/
+
+# Node
+node_modules/
