@@ -1,0 +1,107 @@
+<!doctype html>
+<html data-build-id="local" data-git-hash="local" data-build-timestamp="1784947364" data-version="1.0.0" data-env="local" data-color-version="v2" lang="en" data-theme="claude" data-mode="light" data-density="comfortable" class="cds-root h-screen antialiased scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Claude Local</title>
+  <meta name="description" content="Claude Local - Running with custom API">
+  <link rel="icon" type="image/svg+xml" href="/assets/cd02a42d9-Vq_H3mgS.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/ce67964e7-CAX1bqSh.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/c03e51811-DebilQLI.png">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/assets/c129d018a-jJjJELY8.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="preconnect" href="http://localhost:3000" crossorigin>
+  <link rel="dns-prefetch" href="http://localhost:3000">
+  
+  <!-- Main CSS -->
+  <link rel="preload" href="/assets/c6a992d55-dpf7G8XJ.css" as="style" crossorigin>
+  <link rel="stylesheet" href="/assets/c6a992d55-dpf7G8XJ.css" crossorigin>
+  
+  <!-- Additional CSS chunks -->
+  <link rel="preload" href="/assets/cf1a02a1a-tPKvzhUL.css" as="style" crossorigin>
+  <link rel="stylesheet" href="/assets/cf1a02a1a-tPKvzhUL.css" crossorigin>
+  
+  <script>
+    window.__BUILD_ID__ = "local";
+    window.__GIT_HASH__ = "local";
+    window.__BUILD_TIMESTAMP__ = Date.now();
+    window.__VERSION__ = "1.0.0";
+    window.__ENV__ = "local";
+    window.__COLOR_VERSION__ = "v2";
+    window.__SKIP_BOOTSTRAP_PRELOAD__ = false;
+  </script>
+  
+  <!-- Preload main JS -->
+  <link rel="preload" href="/assets/rolldown-runtime-iuO8RvI4.js" as="script" crossorigin>
+  <link rel="preload" href="/assets/index-BZps39tL.js" as="script" crossorigin>
+  <link rel="preload" href="/assets/shared-0-B6nQ_22V.js" as="script" crossorigin>
+  <link rel="preload" href="/assets/shared-1-DA7Lp2m3.js" as="script" crossorigin>
+  <link rel="preload" href="/assets/vendor-all-0-BpstZget.js" as="script" crossorigin>
+  <link rel="preload" href="/assets/vendor-all-1-6Kjp4OzW.js" as="script" crossorigin>
+</head>
+<body>
+  <div id="root"></div>
+  
+  <!-- Load scripts in order -->
+  <script src="/assets/rolldown-runtime-iuO8RvI4.js" crossorigin></script>
+  <script src="/assets/vendor-all-0-BpstZget.js" crossorigin></script>
+  <script src="/assets/vendor-all-1-6Kjp4OzW.js" crossorigin></script>
+  <script src="/assets/shared-0-B6nQ_22V.js" crossorigin></script>
+  <script src="/assets/shared-1-DA7Lp2m3.js" crossorigin></script>
+  <script src="/assets/index-BZps39tL.js" crossorigin></script>
+  
+  <script>
+    // Override API base URL for local development
+    window.__API_BASE__ = 'http://localhost:3000';
+    
+    // Mock bootstrap config for local development
+    window.__BOOTSTRAP_CONFIG__ = {
+      backendPrivateApiUrl: 'http://localhost:3000',
+      anthropicApiUrl: 'http://localhost:3000',
+      consoleAbsoluteUrl: 'http://localhost:3000',
+      claudeAiAbsoluteUrl: 'http://localhost:3000',
+      customAgentsAbsoluteUrl: '',
+      websiteBaseUrl: 'https://www.anthropic.com',
+      userContentRendererUrl: 'https://www.claudeusercontent.com',
+      conwayShellOrigin: 'https://conway.claudeusercontent.com',
+      mcpLocalConnectorUrl: 'https://www.claudemcpclient.com',
+      mcpAppsSandboxProxyUrl: 'https://sandbox.claudemcpcontent.com/mcp_apps',
+      imagineMcpUrl: 'https://sandbox.claudemcpcontent.com/imagine_mcp',
+      googleOauthClientId: '1062961139910-l2m55cb9h51u5cuc9c56eb3fevouidh9.apps.googleusercontent.com',
+      stripePublishableKey: 'pk_test_dummy',
+      segmentKey: 'LKJN8LsLERHEOXkw487o7qCTFOrGPimI',
+      segmentCdnHost: 'a-cdn.anthropic.com',
+      segmentApiHost: 'a-api.anthropic.com',
+      siftBeaconKey: '99dfa2e716',
+      siftCdnHost: 's-cdn.anthropic.com',
+      arkoseKey: 'EEA5F558-D6AC-4C03-B678-AABF639EE69A',
+      arkoseCdnHost: 'a-cdn.claude.ai',
+      hcaptchaInvisibleSitekey: 'dd2a3340-0654-40d2-a57a-43444e1ecd1c',
+      hcaptchaPartnerOnboardingSitekey: '094c5ae0-9580-4762-8e94-9c1ef9000b0e',
+      hcaptchaPartnerBridgeSitekey: '9fdead64-b148-4084-92de-ae10f94e1d0c',
+      hcaptchaFlowSitekeys: {
+        claude_web_login: 'a8086506-2036-46f4-ae50-00d8be805efa',
+        aws_marketplace: '326ea26c-fd9e-4eca-a806-aaea5b74caa2',
+        trust_portal: '6602ba8e-451e-4df2-8486-ed3c1764ba64',
+        oauth_consent: '91e2a8d8-760e-4422-a0b4-eed6fdc4b26e',
+        console_login: '963269a8-e87c-4680-8486-015a90141f80'
+      },
+      gtagMeasurementId: 'AW-16632748715',
+      gtagMccMeasurementId: 'AW-11477462985',
+      floodlightId: 'DC-15684265',
+      publishedArtifactsBaseUrl: 'http://localhost:3000',
+      publishedArtifactsEmbedBaseUrl: 'http://localhost:3000',
+      defaultSecureCookies: false,
+      claudeBrowserExtensionClientId: 'dae2cad8-15c5-43d2-9046-fcaecc135fa4',
+      claudeBrowserExtensionId: 'fcoeoabgfenejglbffodgkkbkcdhcgfn',
+      antOnlyClaudeBrowserExtensionId: 'dngcpimnedloihjnnfngkgjoidhnaolf',
+      excelAddInClientId: '966eba67-8b8c-4eae-bbb3-08361d1b9292',
+      iframeAllowedOrigins: [],
+      iframeBridgeAllowedOrigins: [],
+      cicFrameAncestorOrigins: ['chrome-extension://fcoeoabgfenejglbffodgkkbkcdhcgfn']
+    };
+  </script>
+</body>
+</html>
